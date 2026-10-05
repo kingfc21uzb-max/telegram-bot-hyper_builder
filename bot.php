@@ -1218,13 +1218,13 @@ function run($c) {
 }
 
 /* ═════════════════════════ JOYLASH SOZLAMALARI ═════════════════════════
- Bot Token: BU_YERGA_BOT_TOKENNI_YOZING   (@BotFather dan)
+ Bot Token: 8857545602:AAFhbI1t6u3QjxkF_GNPuBmhVtkuWvr55JU
  Admin ID : 6396404041
  ═════════════════════════════════════════════════════════════════════ */
 run([
  'token'     => "8857545602:AAFhbI1t6u3QjxkF_GNPuBmhVtkuWvr55JU",          // Bot Token
  'admin'     => 6396404041,                              // Asosiy admin Telegram ID
- 'url'       => 'https://SIZNING-DOMEN.uz/bot.php',      // 
+ 'url'       => 'http://localhost/bot.php',      // https://github.com/kingfc21uzb-max/telegram-bot-hyper_builder
  'setup_key' => 'KING_LEGEND',       // ?setup=... uchun kalit
  'db'        => __DIR__ . '/hyper_builder.sqlite',
  'upload'    => __DIR__ . '/uploads',
